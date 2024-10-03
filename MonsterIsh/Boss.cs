@@ -15,7 +15,7 @@ namespace MonsterIsh
 
         public override int Attack()
         {
-            return 340;
+            return AttackPower;
         }
 
     }
