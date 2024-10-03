@@ -8,11 +8,7 @@ namespace MonsterIsh
 {
     internal class Boss : GameCharacter
     {
-        public Boss(string name, int health, int attackPower) : base(name, health, attackPower)
-        {
-
-        }
-
+        public Boss(string name, int health, int attackPower) : base(name, health, attackPower) { }
         public override int Attack()
         {
             return AttackPower;

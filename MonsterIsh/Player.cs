@@ -10,10 +10,7 @@ namespace MonsterIsh
     {
         public List<Weapon> weapons = new List<Weapon>();
         private Weapon weaponOfChoice;
-        public Player(string name, int health, int attackPower) : base(name, health, attackPower)
-        {
-
-        }
+        public Player(string name, int health, int attackPower) : base(name, health, attackPower) { }
 
         public void ChooseWeapon()
         {
